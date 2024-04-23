@@ -102,6 +102,6 @@ Android.
 ### Documentos
 
 Esta app se basa en algunos documentos que he escrito los cuales relacionan los siguientes contenidos:
-- (Animación tipo Shimmer)[https://cristian-code.medium.com/skeleton-ui-in-jetpack-compose-the-lost-design-f99b5e2f14a1]
-- (Manejo de temas light/dark)[https://levelup.gitconnected.com/theme-management-with-datastore-in-jetpack-compose-c10c043ab276]
-- (Animacion de splash)[https://cristian-code.medium.com/jetpack-compose-space-animation-c49fdefcb7a3]
+- [Animación tipo Shimmer](https://cristian-code.medium.com/skeleton-ui-in-jetpack-compose-the-lost-design-f99b5e2f14a1)
+- [Manejo de temas light/dark](https://levelup.gitconnected.com/theme-management-with-datastore-in-jetpack-compose-c10c043ab276)
+- [Animacion de splash](https://cristian-code.medium.com/jetpack-compose-space-animation-c49fdefcb7a3)
