@@ -14,14 +14,14 @@ La aplicación móvil recopila las siguientes funcionalidades:
 ### Screnshots
 
 #### Light Theme
-| Splash   | Login | Home | Profile |
-|----------|-------| ---- | ------- |
-| ![Splash](./screenshots/splash_light.png) | ![Login](./screenshots/login_light.png) | ![Home](./screenshots/home_light.png) | ![Profile](./screenshots/profile_light.png) |
+| Splash                                    | Login                                   | Home                                  | Profile                                     |
+|-------------------------------------------|-----------------------------------------|---------------------------------------|---------------------------------------------|
+| ![Splash](./screenshots/splash_light.jpg) | ![Login](./screenshots/login_light.jpg) | ![Home](./screenshots/home_light.jpg) | ![Profile](./screenshots/profile_light.jpg) |
 
 ### Dark Theme
 | Splash                                   | Login                                  | Home                                 | Profile                                    |
 |------------------------------------------|----------------------------------------|--------------------------------------|--------------------------------------------|
-| ![Splash](./screenshots/splash_dark.png) | ![Login](./screenshots/login_dark.png) | ![Home](./screenshots/home_dark.png) | ![Profile](./screenshots/profile_dark.png) |
+| ![Splash](./screenshots/splash_dark.jpg) | ![Login](./screenshots/login_dark.jpg) | ![Home](./screenshots/home_dark.jpg) | ![Profile](./screenshots/profile_dark.jpg) |
 
 ## Arquitectura
 
