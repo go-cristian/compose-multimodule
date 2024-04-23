@@ -23,6 +23,9 @@ La aplicación móvil recopila las siguientes funcionalidades:
 |------------------------------------------|----------------------------------------|--------------------------------------|--------------------------------------------|
 | ![Splash](./screenshots/splash_dark.jpg) | ![Login](./screenshots/login_dark.jpg) | ![Home](./screenshots/home_dark.jpg) | ![Profile](./screenshots/profile_dark.jpg) |
 
+### Video
+[![Video](./screenshots/splash_light.jpg)](./screenshots/video.webm)
+
 ## Arquitectura
 
 La arquitectura de la aplicación sigue el patrón MVVM (Modelo-Vista-ViewModel), facilitando la
