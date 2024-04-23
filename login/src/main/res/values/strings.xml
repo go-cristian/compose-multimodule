@@ -1,0 +1,6 @@
+<resources>
+    <string name="description">El micropréstamo en línea que confía en ti.\nObtén un préstamo de $500MXN hasta $5,000MXN desde tu celular.\nPuedes iniciar el trámite ahora mismo.</string>
+    <string name="email_label">Correo electrónico</string>
+    <string name="pass_label">Contraseña</string>
+    <string name="login_label">Iniciar sesión</string>
+</resources>

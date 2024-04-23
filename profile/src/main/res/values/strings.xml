@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Nombre:</string>
+    <string name="email">Correo Electronico:</string>
+    <string name="logout">Cerrar Sesión</string>
+</resources>

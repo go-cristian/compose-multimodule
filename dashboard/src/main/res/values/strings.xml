@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Bienvenido %1$s</string>
+    <string name="to_pay">Por Pagar</string>
+    <string name="loan_amount">Monto del prestamo %1$s</string>
+    <string name="payment_date">Fecha de pago</string>
+    <string name="loan_info">Información de tu prestamo</string>
+    <string name="loan_number">Número de prestamo</string>
+    <string name="payment_time">Tiempo para pago</string>
+    <string name="make_payment">Hacer un pago</string>
+</resources>
