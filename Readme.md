@@ -24,8 +24,7 @@ La aplicación móvil recopila las siguientes funcionalidades:
 | ![Splash](./screenshots/splash_dark.jpg) | ![Login](./screenshots/login_dark.jpg) | ![Home](./screenshots/home_dark.jpg) | ![Profile](./screenshots/profile_dark.jpg) |
 
 ### Video
-![Demo](https://github.com/go-cristian/compose-multimodule/assets/4701682/752b3735-e702-40c2-8279-427ae5b52563)
-
+[video.webm](https://github.com/go-cristian/compose-multimodule/assets/4701682/fe419e60-b1f1-4892-bd53-be8d9298188e)
 
 ## Arquitectura
 
