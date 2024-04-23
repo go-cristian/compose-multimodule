@@ -11,6 +11,18 @@ La aplicación móvil recopila las siguientes funcionalidades:
     - Perfil de usuario
         - Cerrar sesión
 
+### Screnshots
+
+#### Light Theme
+| Splash   | Login | Home | Profile |
+|----------|-------| ---- | ------- |
+| ![Splash](./screenshots/splash_light.png) | ![Login](./screenshots/login_light.png) | ![Home](./screenshots/home_light.png) | ![Profile](./screenshots/profile_light.png) |
+
+### Dark Theme
+| Splash                                   | Login                                  | Home                                 | Profile                                    |
+|------------------------------------------|----------------------------------------|--------------------------------------|--------------------------------------------|
+| ![Splash](./screenshots/splash_dark.png) | ![Login](./screenshots/login_dark.png) | ![Home](./screenshots/home_dark.png) | ![Profile](./screenshots/profile_dark.png) |
+
 ## Arquitectura
 
 La arquitectura de la aplicación sigue el patrón MVVM (Modelo-Vista-ViewModel), facilitando la
@@ -83,3 +95,10 @@ Mediante Robolectric se ha podido hacer shadow de componentes como datasotre, as
 usarse para testear componentes relacionados con el uso de bases de datos local. En este caso,
 Robolectric permite testear de manera unitaria componentes que se comunican con elementos propios de
 Android.
+
+### Documentos
+
+Esta app se basa en algunos documentos que he escrito los cuales relacionan los siguientes contenidos:
+- (Animación tipo Shimmer)[https://cristian-code.medium.com/skeleton-ui-in-jetpack-compose-the-lost-design-f99b5e2f14a1]
+- (Manejo de temas light/dark)[https://levelup.gitconnected.com/theme-management-with-datastore-in-jetpack-compose-c10c043ab276]
+- (Animacion de splash)[https://cristian-code.medium.com/jetpack-compose-space-animation-c49fdefcb7a3]
