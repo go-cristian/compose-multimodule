@@ -32,7 +32,7 @@ fun SnackbarMessage(
             verticalArrangement = Arrangement.spacedBy(4.dp),
             horizontalAlignment = Alignment.Start
         ) {
-            Body4Bold(text = message, color = textColor)
+            Typographies.Body4Bold(text = message, color = textColor)
         }
     }
 }

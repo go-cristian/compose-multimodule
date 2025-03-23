@@ -34,12 +34,8 @@ import com.baubap.common.UnitFunction
 import com.baubap.common.repositories.User
 import com.baubap.dashboard.R
 import com.baubap.dashboard.domain.AccountData
-import com.baubap.ds.components.Body1
-import com.baubap.ds.components.Body4Bold
-import com.baubap.ds.components.Body4Medium
-import com.baubap.ds.components.LargeTitle
 import com.baubap.ds.components.PrimaryButton
-import com.baubap.ds.components.Title
+import com.baubap.ds.components.Typographies
 import com.baubap.ds.ui.theme.AppTheme
 import com.baubap.ds.ui.theme.Black
 import com.baubap.ds.ui.theme.LightPurple
@@ -89,7 +85,7 @@ fun DashboardView(
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-                Title(
+                Typographies.Title(
                     text = stringResource(id = R.string.welcome, accountData.user.name),
                     color = Colors.title,
                     textAlign = TextAlign.Center,
@@ -111,26 +107,26 @@ fun DashboardView(
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    Body1(
+                    Typographies.Body1(
                         text = stringResource(id = R.string.to_pay),
                         modifier = Modifier.fillMaxWidth(),
                         textAlign = TextAlign.Center,
                     )
                     Spacer(modifier = Modifier.size(24.dp))
-                    LargeTitle(
+                    Typographies.LargeTitle(
                         text = accountData.totalDebt,
                         modifier = Modifier.fillMaxWidth(),
                         textAlign = TextAlign.Center,
                         testTag = Tags.ToPay,
                     )
                     Spacer(modifier = Modifier.size(24.dp))
-                    Body4Bold(
+                    Typographies.Body4Bold(
                         text = stringResource(id = R.string.to_pay),
                         textAlign = TextAlign.Center,
                         modifier = Modifier
                             .fillMaxWidth(),
                     )
-                    Body4Medium(
+                    Typographies.Body4Medium(
                         text = accountData.creditTotal,
                         textAlign = TextAlign.Center,
                         modifier = Modifier
@@ -138,7 +134,7 @@ fun DashboardView(
                         testTag = Tags.TotalDebt,
                     )
                     Spacer(modifier = Modifier.size(24.dp))
-                    Body4Bold(
+                    Typographies.Body4Bold(
                         text = stringResource(id = R.string.payment_date),
                         leadingIcon = Icons.Outlined.CalendarMonth,
                         modifier = Modifier.fillMaxWidth(),
@@ -146,7 +142,7 @@ fun DashboardView(
                         color = LightPurple,
                     )
                     Spacer(modifier = Modifier.size(12.dp))
-                    Body1(
+                    Typographies.Body1(
                         text = accountData.date,
                         textAlign = TextAlign.Center,
                         modifier = Modifier
@@ -157,7 +153,7 @@ fun DashboardView(
             }
 
             Spacer(modifier = Modifier.weight(1f))
-            Body1(
+            Typographies.Body1(
                 text = stringResource(id = R.string.loan_info),
                 textAlign = TextAlign.Center,
                 color = LightPurple,
@@ -171,9 +167,9 @@ fun DashboardView(
                     .fillMaxWidth()
                     .padding(horizontal = 4.dp)
             ) {
-                Body1(text = stringResource(id = R.string.loan_number))
+                Typographies.Body1(text = stringResource(id = R.string.loan_number))
                 Spacer(modifier = Modifier.weight(1f))
-                Body1(
+                Typographies.Body1(
                     text = accountData.loanNumber,
                     modifier = Modifier,
                     testTag = Tags.LoanNumber,
@@ -187,9 +183,9 @@ fun DashboardView(
                     .fillMaxWidth()
                     .padding(horizontal = 4.dp)
             ) {
-                Body1(text = stringResource(id = R.string.payment_time))
+                Typographies.Body1(text = stringResource(id = R.string.payment_time))
                 Spacer(modifier = Modifier.weight(1f))
-                Body1(
+                Typographies.Body1(
                     text = accountData.loanTime,
                     modifier = Modifier,
                     testTag = Tags.LoanTime,
