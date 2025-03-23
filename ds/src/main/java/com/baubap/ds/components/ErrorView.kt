@@ -31,7 +31,7 @@ fun ErrorView(
             verticalArrangement = Arrangement.Bottom,
         ) {
             Column {
-                Body1(
+                Typographies.Body1(
                     text = "Something happened, please continue back when you ara online",
                     modifier = Modifier
                         .padding(top = 20.dp)

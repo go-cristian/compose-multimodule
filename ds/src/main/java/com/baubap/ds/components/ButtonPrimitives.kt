@@ -126,7 +126,7 @@ fun BaseButton(
                 )
             }
             if (variant == Variant.BORDERLESS) {
-                Body4Medium(
+                Typographies.Body4Medium(
                     modifier = Modifier
                         .padding(start = if (leadingIcon == null) 0.dp else 6.dp)
                         .padding(end = if (trailingIcon == null) 0.dp else 6.dp),
@@ -135,7 +135,7 @@ fun BaseButton(
                     textAlign = TextAlign.Center,
                 )
             } else {
-                Body2(
+                Typographies.Body2(
                     text = text,
                     color = textColorFrom(variant, enabled),
                     textAlign = TextAlign.Center,

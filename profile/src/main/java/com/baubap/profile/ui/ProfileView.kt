@@ -25,10 +25,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.baubap.common.UnitFunction
 import com.baubap.common.repositories.User
-import com.baubap.ds.components.Body1
-import com.baubap.ds.components.LargeTitle
 import com.baubap.ds.components.PrimaryButton
-import com.baubap.ds.components.Title
+import com.baubap.ds.components.Typographies
 import com.baubap.ds.ui.theme.AppTheme
 import com.baubap.ds.ui.theme.LightPurple
 import com.baubap.ds.ui.theme.White
@@ -61,9 +59,9 @@ fun ProfileView(
                         .size(100.dp)
                         .background(LightPurple, shape = CircleShape),
                 ) {
-                    Title(text = user.initials, color = White)
+                    Typographies.Title(text = user.initials, color = White)
                 }
-                LargeTitle(
+                Typographies.LargeTitle(
                     text = user.username,
                     modifier = Modifier.fillMaxWidth(),
                     textAlign = TextAlign.Center
@@ -79,9 +77,9 @@ fun ProfileView(
                     .fillMaxWidth()
                     .padding(horizontal = 4.dp)
             ) {
-                Body1(text = stringResource(id = R.string.name))
+                Typographies.Body1(text = stringResource(id = R.string.name))
                 Spacer(modifier = Modifier.weight(1f))
-                Body1(text = user.name)
+                Typographies.Body1(text = user.name)
             }
             Spacer(modifier = Modifier.size(24.dp))
             Divider()
@@ -91,9 +89,9 @@ fun ProfileView(
                     .fillMaxWidth()
                     .padding(horizontal = 4.dp)
             ) {
-                Body1(text = stringResource(id = R.string.email))
+                Typographies.Body1(text = stringResource(id = R.string.email))
                 Spacer(modifier = Modifier.weight(1f))
-                Body1(text = user.email)
+                Typographies.Body1(text = user.email)
             }
             Spacer(modifier = Modifier.size(24.dp))
             Divider()

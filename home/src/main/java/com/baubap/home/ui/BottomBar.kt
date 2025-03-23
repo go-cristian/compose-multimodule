@@ -19,7 +19,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.baubap.common.ApplicationFeature
 import com.baubap.common.onClick
-import com.baubap.ds.components.Body4
+import com.baubap.ds.components.Typographies
 import com.baubap.ds.ui.theme.Black
 import com.baubap.ds.ui.theme.LightPurple
 import com.baubap.ds.ui.theme.Violet
@@ -66,7 +66,7 @@ fun BottomBar(
                             .size(24.dp),
                     )
                 }
-                Body4(
+                Typographies.Body4(
                     route.name!!,
                     modifier = Modifier.padding(top = 10.dp),
                     color = color,

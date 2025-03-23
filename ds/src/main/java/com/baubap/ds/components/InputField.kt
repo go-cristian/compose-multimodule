@@ -126,7 +126,7 @@ fun InputField(
                                 .height(18.dp)
                         ) {
                             if (textState.text.isEmpty()) {
-                                Body3(
+                                Typographies.Body3(
                                     placeholder,
                                     color = placeholderColor,
                                 )
@@ -153,7 +153,8 @@ fun InputField(
                         VisualTransformation.None
                     },
                     cursorBrush = SolidColor(Black orInDarkTheme White),
-                    textStyle = styleFrom(TextVariant.BODY_4).copy(color = Colors.text),
+                    textStyle = Typographies.styleFrom(Typographies.Companion.TextVariant.BODY_4)
+                        .copy(color = Colors.text),
                     modifier = Modifier
                         .weight(1f)
                         .padding(0.dp)

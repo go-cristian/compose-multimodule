@@ -42,7 +42,7 @@ import com.baubap.common.stateOf
 import com.baubap.ds.components.IconValue
 import com.baubap.ds.components.InputField
 import com.baubap.ds.components.PrimaryButton
-import com.baubap.ds.components.Title
+import com.baubap.ds.components.Typographies
 import com.baubap.ds.ui.theme.AppTheme
 import com.baubap.ds.ui.theme.Black
 import com.baubap.ds.ui.theme.White
@@ -75,7 +75,7 @@ fun LoginView(
             var password by stateOf(TextFieldValue())
             var passwordKeyboardType by stateOf(KeyboardType.Password)
 
-            Title(
+            Typographies.Title(
                 text = stringResource(R.string.description),
                 color = Colors.title,
                 textAlign = TextAlign.Center,
